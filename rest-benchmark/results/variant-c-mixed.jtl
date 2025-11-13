@@ -1,0 +1,301 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1762955267893,284,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-2,text,false,,536,136,2,3,http://localhost/api/items?page=20&size=50,281,0,177
+1762955267898,277,GET /api/items?page,404,Not Found,Mixed – 50 Threads 1-2,text,false,,536,136,1,3,http://localhost/api/items?page=41&size=50,276,0,172
+1762955268877,43,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-4,text,false,,536,136,2,3,http://localhost/api/items?page=65&size=50,43,0,8
+1762955270251,17,GET /api/items?page,404,Not Found,Mixed – 50 Threads 1-4,text,false,,536,137,2,5,http://localhost/api/items?page=100&size=50,17,0,9
+1762955270638,17,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-7,text,false,,536,136,4,5,http://localhost/api/items?page=24&size=50,16,0,14
+1762955271763,11,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-9,text,false,,536,137,4,5,http://localhost/api/items?page=100&size=50,11,0,5
+1762955273499,12,GET /api/items?page,404,Not Found,Mixed – 50 Threads 1-7,text,false,,536,136,3,7,http://localhost/api/items?page=30&size=50,11,0,3
+1762955273582,19,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-12,text,false,,536,136,5,7,http://localhost/api/items?page=94&size=50,19,0,15
+1762955274016,15,POST /api/items,404,Not Found,Mixed – 100 Threads 2-3,text,false,,536,179,4,6,http://localhost/api/items,15,0,10
+1762955273950,84,PUT /api/items/{id},405,Method Not Allowed,Mixed – 50 Threads 1-6,text,false,,605,181,2,5,http://localhost/api/items/16,84,0,51
+1762955274034,15,POST /api/items,404,Not Found,Mixed – 100 Threads 2-8,text,false,,536,179,3,5,http://localhost/api/items,15,0,4
+1762955274086,13,POST /api/items,404,Not Found,Mixed – 50 Threads 1-3,text,false,,536,179,2,4,http://localhost/api/items,13,0,7
+1762955274098,8,PUT /api/items/{id},405,Method Not Allowed,Mixed – 100 Threads 2-6,text,false,,605,180,2,3,http://localhost/api/items/9,8,0,4
+1762955274383,17,POST /api/items,404,Not Found,Mixed – 100 Threads 2-13,text,false,,536,179,3,5,http://localhost/api/items,17,0,10
+1762955274481,5,DELETE /api/items/{id},405,Method Not Allowed,Mixed – 50 Threads 1-6,text,false,,607,209,2,4,http://localhost/api/items/16,4,0,0
+1762955274600,21,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-14,text,false,,536,136,2,4,http://localhost/api/items?page=51&size=50,21,0,5
+1762955274811,5,DELETE /api/items/{id},405,Method Not Allowed,Mixed – 100 Threads 2-6,text,false,,607,208,1,3,http://localhost/api/items/9,5,0,0
+1762955274984,10,POST /api/items,404,Not Found,Mixed – 50 Threads 1-8,text,false,,536,179,2,3,http://localhost/api/items,9,0,4
+1762955275113,4,POST /api/categories,404,Not Found,Mixed – 50 Threads 1-6,text,false,,535,184,1,2,http://localhost/api/categories,4,0,0
+1762955275557,7,PUT /api/categories/{id},405,Method Not Allowed,Mixed – 50 Threads 1-6,text,false,,604,186,2,4,http://localhost/api/categories/16,7,0,0
+1762955275604,10,POST /api/categories,404,Not Found,Mixed – 100 Threads 2-6,text,false,,535,184,2,3,http://localhost/api/categories,10,0,0
+1762955275932,7,PUT /api/items/{id},405,Method Not Allowed,Mixed – 100 Threads 2-16,text,false,,605,181,2,3,http://localhost/api/items/24,6,0,3
+1762955276074,6,PUT /api/categories/{id},405,Method Not Allowed,Mixed – 100 Threads 2-6,text,false,,604,185,3,4,http://localhost/api/categories/9,6,0,0
+1762955276199,13,GET /api/items?page,404,Not Found,Mixed – 50 Threads 1-9,text,false,,536,136,1,3,http://localhost/api/items?page=12&size=50,13,0,6
+1762955276219,16,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-17,text,false,,536,136,2,2,http://localhost/api/items?page=89&size=50,15,0,8
+1762955276561,9,DELETE /api/items/{id},405,Method Not Allowed,Mixed – 100 Threads 2-16,text,false,,607,209,1,1,http://localhost/api/items/24,8,0,0
+1762955276943,10,POST /api/categories,404,Not Found,Mixed – 100 Threads 2-16,text,false,,535,184,2,2,http://localhost/api/categories,9,0,0
+1762955277287,13,POST /api/items,404,Not Found,Mixed – 100 Threads 2-18,text,false,,536,179,3,3,http://localhost/api/items,13,0,9
+1762955277462,5,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-19,text,false,,536,136,2,2,http://localhost/api/items?page=56&size=50,4,0,2
+1762955277494,4,PUT /api/categories/{id},405,Method Not Allowed,Mixed – 100 Threads 2-16,text,false,,604,186,1,1,http://localhost/api/categories/24,4,0,0
+1762955279367,10,GET /api/items?page,404,Not Found,Mixed – 50 Threads 1-12,text,false,,536,136,1,2,http://localhost/api/items?page=23&size=50,10,0,3
+1762955279395,3,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-22,text,false,,536,136,1,1,http://localhost/api/items?page=54&size=50,3,0,1
+1762955280327,20,POST /api/items,404,Not Found,Mixed – 100 Threads 2-23,text,false,,536,179,2,3,http://localhost/api/items,20,0,9
+1762955280797,16,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-24,text,false,,536,135,1,2,http://localhost/api/items?page=9&size=50,16,0,14
+1762955281011,7,POST /api/items,404,Not Found,Mixed – 50 Threads 1-13,text,false,,536,179,1,1,http://localhost/api/items,7,0,4
+1762955281812,8,GET /api/items?page,404,Not Found,Mixed – 50 Threads 1-14,text,false,,536,136,1,2,http://localhost/api/items?page=35&size=50,8,0,4
+1762955281848,10,PUT /api/items/{id},405,Method Not Allowed,Mixed – 100 Threads 2-26,text,false,,605,181,1,1,http://localhost/api/items/39,10,0,4
+1762955282350,6,DELETE /api/items/{id},405,Method Not Allowed,Mixed – 100 Threads 2-26,text,false,,607,209,2,2,http://localhost/api/items/39,6,0,0
+1762955282403,12,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-27,text,false,,536,136,2,2,http://localhost/api/items?page=99&size=50,12,0,9
+1762955282962,14,POST /api/items,404,Not Found,Mixed – 100 Threads 2-28,text,false,,536,179,2,2,http://localhost/api/items,13,0,5
+1762955283014,9,POST /api/categories,404,Not Found,Mixed – 100 Threads 2-26,text,false,,535,184,1,1,http://localhost/api/categories,9,0,0
+1762955283314,6,PUT /api/categories/{id},405,Method Not Allowed,Mixed – 100 Threads 2-26,text,false,,604,186,2,2,http://localhost/api/categories/39,6,0,0
+1762955283724,6,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-29,text,false,,536,136,1,1,http://localhost/api/items?page=57&size=50,6,0,3
+1762955284151,14,PUT /api/items/{id},405,Method Not Allowed,Mixed – 50 Threads 1-16,text,false,,605,181,1,1,http://localhost/api/items/46,14,0,8
+1762955284718,5,DELETE /api/items/{id},405,Method Not Allowed,Mixed – 50 Threads 1-16,text,false,,607,209,1,1,http://localhost/api/items/46,5,0,0
+1762955285371,4,POST /api/categories,404,Not Found,Mixed – 50 Threads 1-16,text,false,,535,184,2,3,http://localhost/api/categories,4,0,0
+1762955285523,5,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-32,text,false,,536,136,1,3,http://localhost/api/items?page=64&size=50,5,0,2
+1762955285607,10,GET /api/items?page,404,Not Found,Mixed – 50 Threads 1-17,text,false,,536,136,2,3,http://localhost/api/items?page=31&size=50,10,0,3
+1762955286045,9,PUT /api/categories/{id},405,Method Not Allowed,Mixed – 50 Threads 1-16,text,false,,604,186,1,2,http://localhost/api/categories/46,9,0,0
+1762955286204,7,POST /api/items,404,Not Found,Mixed – 100 Threads 2-33,text,false,,536,179,2,3,http://localhost/api/items,7,0,4
+1762955286364,11,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-34,text,false,,536,136,1,2,http://localhost/api/items?page=90&size=50,11,0,7
+1762955286665,12,POST /api/items,404,Not Found,Mixed – 50 Threads 1-18,text,false,,536,179,1,1,http://localhost/api/items,12,0,8
+1762955287921,11,GET /api/items?page,404,Not Found,Mixed – 50 Threads 1-19,text,false,,536,136,1,2,http://localhost/api/items?page=37&size=50,10,0,3
+1762955288089,69,PUT /api/items/{id},405,Method Not Allowed,Mixed – 100 Threads 2-36,text,false,,605,181,2,2,http://localhost/api/items/54,69,0,65
+1762955288494,9,DELETE /api/items/{id},405,Method Not Allowed,Mixed – 100 Threads 2-36,text,false,,607,209,2,2,http://localhost/api/items/54,9,0,0
+1762955288559,10,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-37,text,false,,536,136,3,3,http://localhost/api/items?page=64&size=50,10,0,3
+1762955288949,8,POST /api/items,404,Not Found,Mixed – 100 Threads 2-38,text,false,,536,179,2,2,http://localhost/api/items,8,0,5
+1762955289039,11,POST /api/categories,404,Not Found,Mixed – 100 Threads 2-36,text,false,,535,184,1,1,http://localhost/api/categories,11,0,0
+1762955289504,5,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-39,text,false,,536,136,2,2,http://localhost/api/items?page=60&size=50,5,0,2
+1762955289893,8,PUT /api/categories/{id},405,Method Not Allowed,Mixed – 100 Threads 2-36,text,false,,604,186,1,1,http://localhost/api/categories/54,8,0,0
+1762955291441,10,GET /api/items?page,404,Not Found,Mixed – 50 Threads 1-22,text,false,,536,136,1,2,http://localhost/api/items?page=27&size=50,10,0,3
+1762955291455,10,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-42,text,false,,536,136,1,1,http://localhost/api/items?page=75&size=50,9,0,5
+1762955291926,12,POST /api/items,404,Not Found,Mixed – 100 Threads 2-43,text,false,,536,179,1,1,http://localhost/api/items,12,0,7
+1762955292490,13,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-44,text,false,,536,136,1,2,http://localhost/api/items?page=56&size=50,13,0,4
+1762955292557,11,POST /api/items,404,Not Found,Mixed – 50 Threads 1-23,text,false,,536,179,1,1,http://localhost/api/items,11,0,6
+1762955293768,10,GET /api/items?page,404,Not Found,Mixed – 50 Threads 1-24,text,false,,536,136,1,2,http://localhost/api/items?page=48&size=50,9,0,4
+1762955293934,5,PUT /api/items/{id},405,Method Not Allowed,Mixed – 100 Threads 2-46,text,false,,605,181,2,2,http://localhost/api/items/69,5,0,2
+1762955294195,4,DELETE /api/items/{id},405,Method Not Allowed,Mixed – 100 Threads 2-46,text,false,,607,209,2,2,http://localhost/api/items/69,4,0,0
+1762955294542,12,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-47,text,false,,536,136,3,3,http://localhost/api/items?page=87&size=50,12,0,7
+1762955294687,5,POST /api/categories,404,Not Found,Mixed – 100 Threads 2-46,text,false,,535,184,2,2,http://localhost/api/categories,4,0,0
+1762955294900,8,POST /api/items,404,Not Found,Mixed – 100 Threads 2-48,text,false,,536,179,2,2,http://localhost/api/items,8,0,3
+1762955295391,8,PUT /api/categories/{id},405,Method Not Allowed,Mixed – 100 Threads 2-46,text,false,,604,186,2,2,http://localhost/api/categories/69,8,0,0
+1762955295476,7,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-49,text,false,,536,136,1,1,http://localhost/api/items?page=99&size=50,6,0,3
+1762955296229,5,PUT /api/items/{id},405,Method Not Allowed,Mixed – 50 Threads 1-26,text,false,,605,181,1,1,http://localhost/api/items/76,5,0,3
+1762955296583,4,DELETE /api/items/{id},405,Method Not Allowed,Mixed – 50 Threads 1-26,text,false,,607,209,1,1,http://localhost/api/items/76,4,0,0
+1762955297225,4,POST /api/categories,404,Not Found,Mixed – 50 Threads 1-26,text,false,,535,184,2,3,http://localhost/api/categories,4,0,0
+1762955297486,9,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-52,text,false,,536,136,1,3,http://localhost/api/items?page=37&size=50,9,0,3
+1762955297665,5,GET /api/items?page,404,Not Found,Mixed – 50 Threads 1-27,text,false,,536,136,2,3,http://localhost/api/items?page=26&size=50,5,0,2
+1762955297882,3,PUT /api/categories/{id},405,Method Not Allowed,Mixed – 50 Threads 1-26,text,false,,604,186,1,2,http://localhost/api/categories/76,3,0,0
+1762955297949,12,POST /api/items,404,Not Found,Mixed – 100 Threads 2-53,text,false,,536,179,1,1,http://localhost/api/items,12,0,3
+1762955298545,4,POST /api/items,404,Not Found,Mixed – 50 Threads 1-28,text,false,,536,179,1,2,http://localhost/api/items,4,0,2
+1762955298703,10,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-54,text,false,,536,136,1,1,http://localhost/api/items?page=38&size=50,10,0,4
+1762955299869,10,GET /api/items?page,404,Not Found,Mixed – 50 Threads 1-29,text,false,,536,136,1,2,http://localhost/api/items?page=28&size=50,10,0,7
+1762955300045,6,PUT /api/items/{id},405,Method Not Allowed,Mixed – 100 Threads 2-56,text,false,,605,181,2,2,http://localhost/api/items/84,6,0,3
+1762955300286,9,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-57,text,false,,536,136,2,2,http://localhost/api/items?page=47&size=50,9,0,6
+1762955300644,3,DELETE /api/items/{id},405,Method Not Allowed,Mixed – 100 Threads 2-56,text,false,,607,209,2,2,http://localhost/api/items/84,3,0,0
+1762955300910,6,POST /api/items,404,Not Found,Mixed – 100 Threads 2-58,text,false,,536,179,2,2,http://localhost/api/items,6,0,3
+1762955301046,4,POST /api/categories,404,Not Found,Mixed – 100 Threads 2-56,text,false,,535,184,1,1,http://localhost/api/categories,4,0,0
+1762955301728,3,PUT /api/categories/{id},405,Method Not Allowed,Mixed – 100 Threads 2-56,text,false,,604,186,2,2,http://localhost/api/categories/84,3,0,0
+1762955301794,5,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-59,text,false,,536,136,1,1,http://localhost/api/items?page=33&size=50,5,0,2
+1762955303210,8,GET /api/items?page,404,Not Found,Mixed – 50 Threads 1-32,text,false,,536,136,1,2,http://localhost/api/items?page=95&size=50,7,0,2
+1762955303273,5,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-62,text,false,,536,136,1,1,http://localhost/api/items?page=98&size=50,5,0,3
+1762955303989,11,POST /api/items,404,Not Found,Mixed – 100 Threads 2-63,text,false,,536,179,1,1,http://localhost/api/items,10,0,5
+1762955304466,7,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-64,text,false,,536,136,1,2,http://localhost/api/items?page=26&size=50,7,0,4
+1762955304618,6,POST /api/items,404,Not Found,Mixed – 50 Threads 1-33,text,false,,536,179,1,1,http://localhost/api/items,6,0,4
+1762955305586,6,PUT /api/items/{id},405,Method Not Allowed,Mixed – 100 Threads 2-66,text,false,,605,181,1,2,http://localhost/api/items/99,6,0,4
+1762955305788,5,GET /api/items?page,404,Not Found,Mixed – 50 Threads 1-34,text,false,,536,136,1,2,http://localhost/api/items?page=33&size=50,5,0,2
+1762955305962,7,DELETE /api/items/{id},405,Method Not Allowed,Mixed – 100 Threads 2-66,text,false,,607,209,2,2,http://localhost/api/items/99,7,0,0
+1762955306156,4,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-67,text,false,,536,136,2,2,http://localhost/api/items?page=59&size=50,4,0,2
+1762955306219,5,POST /api/categories,404,Not Found,Mixed – 100 Threads 2-66,text,false,,535,184,1,1,http://localhost/api/categories,5,0,0
+1762955306875,12,POST /api/items,404,Not Found,Mixed – 100 Threads 2-68,text,false,,536,179,2,2,http://localhost/api/items,11,0,4
+1762955306884,6,PUT /api/categories/{id},405,Method Not Allowed,Mixed – 100 Threads 2-66,text,false,,604,186,1,1,http://localhost/api/categories/99,6,0,0
+1762955307792,8,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-69,text,false,,536,136,1,1,http://localhost/api/items?page=36&size=50,8,0,3
+1762955308472,5,PUT /api/items/{id},405,Method Not Allowed,Mixed – 50 Threads 1-36,text,false,,605,182,1,1,http://localhost/api/items/106,5,0,2
+1762955308907,5,DELETE /api/items/{id},405,Method Not Allowed,Mixed – 50 Threads 1-36,text,false,,607,210,1,2,http://localhost/api/items/106,5,0,0
+1762955309517,7,POST /api/categories,404,Not Found,Mixed – 50 Threads 1-36,text,false,,535,184,2,3,http://localhost/api/categories,7,0,0
+1762955309568,13,GET /api/items?page,404,Not Found,Mixed – 50 Threads 1-37,text,false,,536,136,2,4,http://localhost/api/items?page=25&size=50,13,0,6
+1762955309600,14,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-72,text,false,,536,136,2,3,http://localhost/api/items?page=26&size=50,14,0,6
+1762955310187,5,POST /api/items,404,Not Found,Mixed – 100 Threads 2-73,text,false,,536,179,2,3,http://localhost/api/items,5,0,2
+1762955310245,8,PUT /api/categories/{id},405,Method Not Allowed,Mixed – 50 Threads 1-36,text,false,,604,187,2,3,http://localhost/api/categories/106,7,0,0
+1762955310614,6,POST /api/items,404,Not Found,Mixed – 50 Threads 1-38,text,false,,536,179,1,2,http://localhost/api/items,6,0,4
+1762955310758,9,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-74,text,false,,536,136,1,1,http://localhost/api/items?page=43&size=50,8,0,3
+1762955311647,5,GET /api/items?page,404,Not Found,Mixed – 50 Threads 1-39,text,false,,536,136,1,2,http://localhost/api/items?page=88&size=50,5,0,3
+1762955311826,9,PUT /api/items/{id},405,Method Not Allowed,Mixed – 100 Threads 2-76,text,false,,605,182,1,1,http://localhost/api/items/114,9,0,7
+1762955312252,3,DELETE /api/items/{id},405,Method Not Allowed,Mixed – 100 Threads 2-76,text,false,,607,210,2,2,http://localhost/api/items/114,3,0,0
+1762955312354,6,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-77,text,false,,536,136,2,2,http://localhost/api/items?page=70&size=50,5,0,2
+1762955312701,4,POST /api/categories,404,Not Found,Mixed – 100 Threads 2-76,text,false,,535,184,2,2,http://localhost/api/categories,4,0,0
+1762955313119,10,POST /api/items,404,Not Found,Mixed – 100 Threads 2-78,text,false,,536,179,3,3,http://localhost/api/items,10,0,6
+1762955313408,8,PUT /api/categories/{id},405,Method Not Allowed,Mixed – 100 Threads 2-76,text,false,,604,187,2,2,http://localhost/api/categories/114,8,0,0
+1762955313554,8,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-79,text,false,,536,136,1,1,http://localhost/api/items?page=22&size=50,8,0,3
+1762955315304,7,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-82,text,false,,536,136,1,2,http://localhost/api/items?page=58&size=50,7,0,2
+1762955315583,16,GET /api/items?page,404,Not Found,Mixed – 50 Threads 1-42,text,false,,536,136,1,2,http://localhost/api/items?page=66&size=50,16,0,2
+1762955315959,7,POST /api/items,404,Not Found,Mixed – 100 Threads 2-83,text,false,,536,179,1,1,http://localhost/api/items,7,0,5
+1762955316509,6,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-84,text,false,,536,136,1,2,http://localhost/api/items?page=90&size=50,6,0,3
+1762955316680,5,POST /api/items,404,Not Found,Mixed – 50 Threads 1-43,text,false,,536,179,1,1,http://localhost/api/items,5,0,3
+1762955317873,11,GET /api/items?page,404,Not Found,Mixed – 50 Threads 1-44,text,false,,536,136,1,2,http://localhost/api/items?page=73&size=50,11,0,7
+1762955317926,8,PUT /api/items/{id},405,Method Not Allowed,Mixed – 100 Threads 2-86,text,false,,605,182,2,2,http://localhost/api/items/129,8,0,5
+1762955318290,7,DELETE /api/items/{id},405,Method Not Allowed,Mixed – 100 Threads 2-86,text,false,,607,210,2,2,http://localhost/api/items/129,7,0,0
+1762955318300,13,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-87,text,false,,536,136,2,2,http://localhost/api/items?page=11&size=50,13,0,4
+1762955318822,7,POST /api/categories,404,Not Found,Mixed – 100 Threads 2-86,text,false,,535,184,2,2,http://localhost/api/categories,7,0,0
+1762955318916,11,POST /api/items,404,Not Found,Mixed – 100 Threads 2-88,text,false,,536,179,2,2,http://localhost/api/items,10,0,3
+1762955319077,3,PUT /api/categories/{id},405,Method Not Allowed,Mixed – 100 Threads 2-86,text,false,,604,187,1,1,http://localhost/api/categories/129,3,0,0
+1762955319544,5,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-89,text,false,,536,136,1,1,http://localhost/api/items?page=64&size=50,5,0,3
+1762955320368,9,PUT /api/items/{id},405,Method Not Allowed,Mixed – 50 Threads 1-46,text,false,,605,182,1,1,http://localhost/api/items/136,9,0,5
+1762955320632,3,DELETE /api/items/{id},405,Method Not Allowed,Mixed – 50 Threads 1-46,text,false,,607,210,1,1,http://localhost/api/items/136,3,0,0
+1762955321339,9,POST /api/categories,404,Not Found,Mixed – 50 Threads 1-46,text,false,,535,184,2,3,http://localhost/api/categories,9,0,0
+1762955321451,10,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-92,text,false,,536,136,1,3,http://localhost/api/items?page=14&size=50,10,0,4
+1762955321711,7,GET /api/items?page,404,Not Found,Mixed – 50 Threads 1-47,text,false,,536,136,2,3,http://localhost/api/items?page=70&size=50,7,0,2
+1762955321797,6,PUT /api/categories/{id},405,Method Not Allowed,Mixed – 50 Threads 1-46,text,false,,604,187,1,2,http://localhost/api/categories/136,6,0,0
+1762955322219,12,POST /api/items,404,Not Found,Mixed – 100 Threads 2-93,text,false,,536,179,2,2,http://localhost/api/items,12,0,8
+1762955322639,6,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-94,text,false,,536,136,1,2,http://localhost/api/items?page=69&size=50,6,0,4
+1762955322730,11,POST /api/items,404,Not Found,Mixed – 50 Threads 1-48,text,false,,536,179,1,1,http://localhost/api/items,11,0,5
+1762955323690,4,PUT /api/items/{id},405,Method Not Allowed,Mixed – 100 Threads 2-96,text,false,,605,182,1,2,http://localhost/api/items/144,4,0,2
+1762955323831,13,GET /api/items?page,404,Not Found,Mixed – 50 Threads 1-49,text,false,,536,136,1,2,http://localhost/api/items?page=52&size=50,13,0,5
+1762955324248,9,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-97,text,false,,536,135,2,2,http://localhost/api/items?page=0&size=50,9,0,4
+1762955324262,3,DELETE /api/items/{id},405,Method Not Allowed,Mixed – 100 Threads 2-96,text,false,,607,210,1,1,http://localhost/api/items/144,3,0,0
+1762955324619,6,POST /api/categories,404,Not Found,Mixed – 100 Threads 2-96,text,false,,535,184,2,2,http://localhost/api/categories,6,0,0
+1762955324896,5,PUT /api/categories/{id},405,Method Not Allowed,Mixed – 100 Threads 2-96,text,false,,604,187,2,2,http://localhost/api/categories/144,5,0,0
+1762955325154,7,POST /api/items,404,Not Found,Mixed – 100 Threads 2-98,text,false,,536,179,2,2,http://localhost/api/items,7,0,4
+1762955325339,5,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-99,text,false,,536,136,1,1,http://localhost/api/items?page=93&size=50,5,0,2
+1762965779639,171,GET /api/items?page,404,Not Found,Mixed – 50 Threads 1-2,text,false,,536,136,1,3,http://localhost/api/items?page=96&size=50,171,0,140
+1762965779614,197,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-2,text,false,,536,136,2,3,http://localhost/api/items?page=94&size=50,196,0,165
+1762965780228,37,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-4,text,false,,536,136,2,2,http://localhost/api/items?page=17&size=50,37,0,3
+1762965781944,18,GET /api/items?page,404,Not Found,Mixed – 50 Threads 1-4,text,false,,536,136,2,5,http://localhost/api/items?page=54&size=50,18,0,3
+1762965782426,16,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-7,text,false,,536,136,4,5,http://localhost/api/items?page=48&size=50,16,0,5
+1762965783244,5,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-9,text,false,,536,136,4,5,http://localhost/api/items?page=29&size=50,4,0,2
+1762965783395,20,POST /api/items,404,Not Found,Mixed – 100 Threads 2-8,text,false,,536,179,3,4,http://localhost/api/items,20,0,15
+1762965783498,12,PUT /api/items/{id},405,Method Not Allowed,Mixed – 100 Threads 2-6,text,false,,605,180,2,3,http://localhost/api/items/9,12,0,9
+1762965783548,6,POST /api/items,404,Not Found,Mixed – 50 Threads 1-3,text,false,,536,179,1,3,http://localhost/api/items,5,0,1
+1762965783613,3,POST /api/items,404,Not Found,Mixed – 100 Threads 2-3,text,false,,536,179,2,2,http://localhost/api/items,3,0,1
+1762965783937,7,DELETE /api/items/{id},405,Method Not Allowed,Mixed – 100 Threads 2-6,text,false,,607,208,1,1,http://localhost/api/items/9,7,0,0
+1762965784663,5,POST /api/categories,404,Not Found,Mixed – 100 Threads 2-6,text,false,,535,184,1,2,http://localhost/api/categories,4,0,0
+1762965784708,6,PUT /api/items/{id},405,Method Not Allowed,Mixed – 50 Threads 1-6,text,false,,605,181,1,3,http://localhost/api/items/16,6,0,4
+1762965785192,4,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-12,text,false,,536,136,2,3,http://localhost/api/items?page=49&size=50,4,0,2
+1762965785309,3,PUT /api/categories/{id},405,Method Not Allowed,Mixed – 100 Threads 2-6,text,false,,604,185,1,3,http://localhost/api/categories/9,2,0,0
+1762965785392,3,DELETE /api/items/{id},405,Method Not Allowed,Mixed – 50 Threads 1-6,text,false,,607,209,2,3,http://localhost/api/items/16,3,0,0
+1762965785795,3,POST /api/categories,404,Not Found,Mixed – 50 Threads 1-6,text,false,,535,184,2,3,http://localhost/api/categories,3,0,0
+1762965785811,7,GET /api/items?page,404,Not Found,Mixed – 50 Threads 1-7,text,false,,536,136,2,3,http://localhost/api/items?page=13&size=50,7,0,2
+1762965785889,6,POST /api/items,404,Not Found,Mixed – 100 Threads 2-13,text,false,,536,179,1,2,http://localhost/api/items,6,0,3
+1762965786435,6,PUT /api/categories/{id},405,Method Not Allowed,Mixed – 50 Threads 1-6,text,false,,604,186,2,3,http://localhost/api/categories/16,6,0,0
+1762965786527,6,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-14,text,false,,536,136,1,2,http://localhost/api/items?page=27&size=50,6,0,2
+1762965786870,6,POST /api/items,404,Not Found,Mixed – 50 Threads 1-8,text,false,,536,179,1,1,http://localhost/api/items,6,0,3
+1762965787524,3,PUT /api/items/{id},405,Method Not Allowed,Mixed – 100 Threads 2-16,text,false,,605,181,1,1,http://localhost/api/items/24,3,0,2
+1762965787857,2,DELETE /api/items/{id},405,Method Not Allowed,Mixed – 100 Threads 2-16,text,false,,607,209,2,3,http://localhost/api/items/24,2,0,0
+1762965788026,3,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-17,text,false,,536,136,2,3,http://localhost/api/items?page=72&size=50,3,0,1
+1762965788195,8,GET /api/items?page,404,Not Found,Mixed – 50 Threads 1-9,text,false,,536,136,1,2,http://localhost/api/items?page=12&size=50,7,0,2
+1762965788359,2,POST /api/categories,404,Not Found,Mixed – 100 Threads 2-16,text,false,,535,184,2,2,http://localhost/api/categories,2,0,0
+1762965788813,7,POST /api/items,404,Not Found,Mixed – 100 Threads 2-18,text,false,,536,179,2,2,http://localhost/api/items,7,0,3
+1762965788833,4,PUT /api/categories/{id},405,Method Not Allowed,Mixed – 100 Threads 2-16,text,false,,604,186,1,1,http://localhost/api/categories/24,4,0,0
+1762965789485,2,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-19,text,false,,536,136,1,1,http://localhost/api/items?page=16&size=50,2,0,1
+1762965791371,2,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-22,text,false,,536,136,2,3,http://localhost/api/items?page=52&size=50,2,0,1
+1762965791605,4,POST /api/items,404,Not Found,Mixed – 100 Threads 2-23,text,false,,536,179,1,2,http://localhost/api/items,4,0,2
+1762965791740,4,GET /api/items?page,404,Not Found,Mixed – 50 Threads 1-12,text,false,,536,136,1,1,http://localhost/api/items?page=16&size=50,4,0,2
+1762965792413,4,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-24,text,false,,536,135,1,2,http://localhost/api/items?page=7&size=50,4,0,3
+1762965792821,3,POST /api/items,404,Not Found,Mixed – 50 Threads 1-13,text,false,,536,179,1,1,http://localhost/api/items,2,0,1
+1762965793500,3,PUT /api/items/{id},405,Method Not Allowed,Mixed – 100 Threads 2-26,text,false,,605,181,1,1,http://localhost/api/items/39,3,0,2
+1762965793804,3,GET /api/items?page,404,Not Found,Mixed – 50 Threads 1-14,text,false,,536,136,1,3,http://localhost/api/items?page=58&size=50,3,0,1
+1762965794045,4,DELETE /api/items/{id},405,Method Not Allowed,Mixed – 100 Threads 2-26,text,false,,607,209,2,2,http://localhost/api/items/39,4,0,0
+1762965794086,3,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-27,text,false,,536,136,2,2,http://localhost/api/items?page=42&size=50,3,0,1
+1762965794456,3,POST /api/categories,404,Not Found,Mixed – 100 Threads 2-26,text,false,,535,184,2,2,http://localhost/api/categories,3,0,0
+1762965794721,2,POST /api/items,404,Not Found,Mixed – 100 Threads 2-28,text,false,,536,179,2,2,http://localhost/api/items,2,0,1
+1762965795104,1,PUT /api/categories/{id},405,Method Not Allowed,Mixed – 100 Threads 2-26,text,false,,604,186,2,2,http://localhost/api/categories/39,1,0,0
+1762965795472,4,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-29,text,false,,536,136,1,1,http://localhost/api/items?page=35&size=50,4,0,1
+1762965796601,3,PUT /api/items/{id},405,Method Not Allowed,Mixed – 50 Threads 1-16,text,false,,605,181,1,1,http://localhost/api/items/46,3,0,2
+1762965797288,2,DELETE /api/items/{id},405,Method Not Allowed,Mixed – 50 Threads 1-16,text,false,,607,209,2,3,http://localhost/api/items/46,2,0,0
+1762965797383,2,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-32,text,false,,536,136,2,4,http://localhost/api/items?page=20&size=50,2,0,1
+1762965797642,4,GET /api/items?page,404,Not Found,Mixed – 50 Threads 1-17,text,false,,536,136,2,3,http://localhost/api/items?page=83&size=50,4,0,3
+1762965798008,4,POST /api/categories,404,Not Found,Mixed – 50 Threads 1-16,text,false,,535,184,1,3,http://localhost/api/categories,4,0,0
+1762965798015,3,POST /api/items,404,Not Found,Mixed – 100 Threads 2-33,text,false,,536,179,2,3,http://localhost/api/items,3,0,1
+1762965798376,4,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-34,text,false,,536,136,1,3,http://localhost/api/items?page=39&size=50,4,0,3
+1762965798593,4,POST /api/items,404,Not Found,Mixed – 50 Threads 1-18,text,false,,536,179,2,2,http://localhost/api/items,4,0,2
+1762965798635,2,PUT /api/categories/{id},405,Method Not Allowed,Mixed – 50 Threads 1-16,text,false,,604,186,1,1,http://localhost/api/categories/46,2,0,0
+1762965799731,3,PUT /api/items/{id},405,Method Not Allowed,Mixed – 100 Threads 2-36,text,false,,605,181,2,3,http://localhost/api/items/54,3,0,2
+1762965800192,3,GET /api/items?page,404,Not Found,Mixed – 50 Threads 1-19,text,false,,536,135,1,3,http://localhost/api/items?page=4&size=50,3,0,2
+1762965800211,2,DELETE /api/items/{id},405,Method Not Allowed,Mixed – 100 Threads 2-36,text,false,,607,209,2,2,http://localhost/api/items/54,2,0,0
+1762965800260,3,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-37,text,false,,536,136,2,2,http://localhost/api/items?page=99&size=50,2,0,1
+1762965800548,1,POST /api/categories,404,Not Found,Mixed – 100 Threads 2-36,text,false,,535,184,2,2,http://localhost/api/categories,1,0,0
+1762965800614,2,POST /api/items,404,Not Found,Mixed – 100 Threads 2-38,text,false,,536,179,2,2,http://localhost/api/items,2,0,1
+1762965800784,2,PUT /api/categories/{id},405,Method Not Allowed,Mixed – 100 Threads 2-36,text,false,,604,186,1,1,http://localhost/api/categories/54,2,0,0
+1762965801356,5,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-39,text,false,,536,136,1,1,http://localhost/api/items?page=93&size=50,4,0,3
+1762965803145,3,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-42,text,false,,536,136,1,2,http://localhost/api/items?page=25&size=50,3,0,1
+1762965803390,2,GET /api/items?page,404,Not Found,Mixed – 50 Threads 1-22,text,false,,536,136,1,2,http://localhost/api/items?page=38&size=50,2,0,1
+1762965803856,3,POST /api/items,404,Not Found,Mixed – 100 Threads 2-43,text,false,,536,179,1,1,http://localhost/api/items,3,0,2
+1762965804364,4,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-44,text,false,,536,136,1,2,http://localhost/api/items?page=85&size=50,4,0,1
+1762965804597,3,POST /api/items,404,Not Found,Mixed – 50 Threads 1-23,text,false,,536,179,1,1,http://localhost/api/items,3,0,1
+1762965805574,4,PUT /api/items/{id},405,Method Not Allowed,Mixed – 100 Threads 2-46,text,false,,605,181,1,2,http://localhost/api/items/69,4,0,2
+1762965805856,2,GET /api/items?page,404,Not Found,Mixed – 50 Threads 1-24,text,false,,536,136,1,3,http://localhost/api/items?page=11&size=50,2,0,1
+1762965806066,4,DELETE /api/items/{id},405,Method Not Allowed,Mixed – 100 Threads 2-46,text,false,,607,209,2,2,http://localhost/api/items/69,4,0,0
+1762965806094,12,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-47,text,false,,536,135,2,2,http://localhost/api/items?page=6&size=50,12,0,4
+1762965806733,6,POST /api/items,404,Not Found,Mixed – 100 Threads 2-48,text,false,,536,179,2,2,http://localhost/api/items,6,0,3
+1762965806755,8,POST /api/categories,404,Not Found,Mixed – 100 Threads 2-46,text,false,,535,184,1,1,http://localhost/api/categories,8,0,0
+1762965807213,3,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-49,text,false,,536,135,2,2,http://localhost/api/items?page=6&size=50,3,0,2
+1762965807270,2,PUT /api/categories/{id},405,Method Not Allowed,Mixed – 100 Threads 2-46,text,false,,604,186,1,1,http://localhost/api/categories/69,2,0,0
+1762965808353,3,PUT /api/items/{id},405,Method Not Allowed,Mixed – 50 Threads 1-26,text,false,,605,181,1,1,http://localhost/api/items/76,3,0,2
+1762965808596,4,DELETE /api/items/{id},405,Method Not Allowed,Mixed – 50 Threads 1-26,text,false,,607,209,1,1,http://localhost/api/items/76,4,0,0
+1762965809164,4,POST /api/categories,404,Not Found,Mixed – 50 Threads 1-26,text,false,,535,184,2,3,http://localhost/api/categories,4,0,0
+1762965809174,2,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-52,text,false,,536,136,1,3,http://localhost/api/items?page=16&size=50,2,0,1
+1762965809754,2,GET /api/items?page,404,Not Found,Mixed – 50 Threads 1-27,text,false,,536,136,2,3,http://localhost/api/items?page=93&size=50,2,0,1
+1762965809840,1,PUT /api/categories/{id},405,Method Not Allowed,Mixed – 50 Threads 1-26,text,false,,604,186,1,2,http://localhost/api/categories/76,1,0,0
+1762965809922,2,POST /api/items,404,Not Found,Mixed – 100 Threads 2-53,text,false,,536,179,2,2,http://localhost/api/items,2,0,1
+1762965810402,2,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-54,text,false,,536,136,1,2,http://localhost/api/items?page=85&size=50,2,0,1
+1762965810740,2,POST /api/items,404,Not Found,Mixed – 50 Threads 1-28,text,false,,536,179,1,1,http://localhost/api/items,2,0,1
+1762965811768,2,PUT /api/items/{id},405,Method Not Allowed,Mixed – 100 Threads 2-56,text,false,,605,181,2,3,http://localhost/api/items/84,2,0,1
+1762965811846,5,GET /api/items?page,404,Not Found,Mixed – 50 Threads 1-29,text,false,,536,135,1,3,http://localhost/api/items?page=5&size=50,5,0,3
+1762965812010,4,DELETE /api/items/{id},405,Method Not Allowed,Mixed – 100 Threads 2-56,text,false,,607,209,2,2,http://localhost/api/items/84,4,0,0
+1762965812168,3,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-57,text,false,,536,136,2,2,http://localhost/api/items?page=38&size=50,3,0,1
+1762965812566,2,POST /api/categories,404,Not Found,Mixed – 100 Threads 2-56,text,false,,535,184,2,2,http://localhost/api/categories,1,0,0
+1762965812612,5,POST /api/items,404,Not Found,Mixed – 100 Threads 2-58,text,false,,536,179,2,2,http://localhost/api/items,5,0,4
+1762965812882,4,PUT /api/categories/{id},405,Method Not Allowed,Mixed – 100 Threads 2-56,text,false,,604,186,1,1,http://localhost/api/categories/84,4,0,0
+1762965813302,3,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-59,text,false,,536,136,1,1,http://localhost/api/items?page=21&size=50,3,0,2
+1762965814930,3,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-62,text,false,,536,136,1,1,http://localhost/api/items?page=62&size=50,3,0,1
+1762965815526,6,GET /api/items?page,404,Not Found,Mixed – 50 Threads 1-32,text,false,,536,136,1,2,http://localhost/api/items?page=61&size=50,6,0,4
+1762965815614,3,POST /api/items,404,Not Found,Mixed – 100 Threads 2-63,text,false,,536,179,1,1,http://localhost/api/items,3,0,1
+1762965816235,2,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-64,text,false,,536,136,1,1,http://localhost/api/items?page=62&size=50,2,0,1
+1762965816654,3,POST /api/items,404,Not Found,Mixed – 50 Threads 1-33,text,false,,536,179,1,1,http://localhost/api/items,3,0,1
+1762965817767,4,PUT /api/items/{id},405,Method Not Allowed,Mixed – 100 Threads 2-66,text,false,,605,181,2,3,http://localhost/api/items/99,4,0,2
+1762965817805,9,GET /api/items?page,404,Not Found,Mixed – 50 Threads 1-34,text,false,,536,135,1,3,http://localhost/api/items?page=9&size=50,9,0,2
+1762965818028,2,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-67,text,false,,536,136,2,2,http://localhost/api/items?page=52&size=50,2,0,1
+1762965818051,1,DELETE /api/items/{id},405,Method Not Allowed,Mixed – 100 Threads 2-66,text,false,,607,209,1,1,http://localhost/api/items/99,1,0,0
+1762965818689,6,POST /api/items,404,Not Found,Mixed – 100 Threads 2-68,text,false,,536,179,2,2,http://localhost/api/items,6,0,4
+1762965818734,1,POST /api/categories,404,Not Found,Mixed – 100 Threads 2-66,text,false,,535,184,1,1,http://localhost/api/categories,1,0,0
+1762965819087,4,PUT /api/categories/{id},405,Method Not Allowed,Mixed – 100 Threads 2-66,text,false,,604,186,2,2,http://localhost/api/categories/99,4,0,0
+1762965819322,6,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-69,text,false,,536,136,1,1,http://localhost/api/items?page=55&size=50,6,0,3
+1762965820213,6,PUT /api/items/{id},405,Method Not Allowed,Mixed – 50 Threads 1-36,text,false,,605,182,1,1,http://localhost/api/items/106,6,0,4
+1762965820743,2,DELETE /api/items/{id},405,Method Not Allowed,Mixed – 50 Threads 1-36,text,false,,607,210,1,2,http://localhost/api/items/106,2,0,0
+1762965820993,2,POST /api/categories,404,Not Found,Mixed – 50 Threads 1-36,text,false,,535,184,1,2,http://localhost/api/categories,2,0,0
+1762965821040,7,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-72,text,false,,536,136,1,2,http://localhost/api/items?page=23&size=50,7,0,5
+1762965821349,4,PUT /api/categories/{id},405,Method Not Allowed,Mixed – 50 Threads 1-36,text,false,,604,187,2,3,http://localhost/api/categories/106,4,0,0
+1762965821571,8,POST /api/items,404,Not Found,Mixed – 100 Threads 2-73,text,false,,536,179,1,2,http://localhost/api/items,8,0,6
+1762965821777,2,GET /api/items?page,404,Not Found,Mixed – 50 Threads 1-37,text,false,,536,136,1,1,http://localhost/api/items?page=74&size=50,2,0,1
+1762965822280,1,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-74,text,false,,536,136,1,1,http://localhost/api/items?page=81&size=50,1,0,0
+1762965822747,2,POST /api/items,404,Not Found,Mixed – 50 Threads 1-38,text,false,,536,179,1,1,http://localhost/api/items,2,0,1
+1762965823756,3,GET /api/items?page,404,Not Found,Mixed – 50 Threads 1-39,text,false,,536,136,1,3,http://localhost/api/items?page=64&size=50,3,0,1
+1762965823763,2,PUT /api/items/{id},405,Method Not Allowed,Mixed – 100 Threads 2-76,text,false,,605,182,2,2,http://localhost/api/items/114,2,0,1
+1762965824141,1,DELETE /api/items/{id},405,Method Not Allowed,Mixed – 100 Threads 2-76,text,false,,607,210,2,2,http://localhost/api/items/114,1,0,0
+1762965824307,4,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-77,text,false,,536,136,2,2,http://localhost/api/items?page=45&size=50,4,0,2
+1762965824439,8,POST /api/categories,404,Not Found,Mixed – 100 Threads 2-76,text,false,,535,184,2,2,http://localhost/api/categories,8,0,0
+1762965824861,4,POST /api/items,404,Not Found,Mixed – 100 Threads 2-78,text,false,,536,179,2,2,http://localhost/api/items,4,0,2
+1762965824983,6,PUT /api/categories/{id},405,Method Not Allowed,Mixed – 100 Threads 2-76,text,false,,604,187,2,2,http://localhost/api/categories/114,6,0,0
+1762965825511,2,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-79,text,false,,536,136,1,1,http://localhost/api/items?page=27&size=50,2,0,1
+1762965827419,13,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-82,text,false,,536,136,2,3,http://localhost/api/items?page=63&size=50,13,0,9
+1762965827638,7,GET /api/items?page,404,Not Found,Mixed – 50 Threads 1-42,text,false,,536,136,1,2,http://localhost/api/items?page=74&size=50,7,0,3
+1762965827818,22,POST /api/items,404,Not Found,Mixed – 100 Threads 2-83,text,false,,536,179,1,1,http://localhost/api/items,22,0,10
+1762965828457,4,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-84,text,false,,536,136,1,2,http://localhost/api/items?page=23&size=50,4,0,2
+1762965828587,5,POST /api/items,404,Not Found,Mixed – 50 Threads 1-43,text,false,,536,179,1,1,http://localhost/api/items,5,0,3
+1762965829703,2,PUT /api/items/{id},405,Method Not Allowed,Mixed – 100 Threads 2-86,text,false,,605,182,1,2,http://localhost/api/items/129,2,0,1
+1762965830031,5,DELETE /api/items/{id},405,Method Not Allowed,Mixed – 100 Threads 2-86,text,false,,607,210,2,3,http://localhost/api/items/129,5,0,0
+1762965830056,4,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-87,text,false,,536,136,2,3,http://localhost/api/items?page=15&size=50,4,0,2
+1762965830091,31,GET /api/items?page,404,Not Found,Mixed – 50 Threads 1-44,text,false,,536,136,1,2,http://localhost/api/items?page=52&size=50,31,0,3
+1762965830584,3,POST /api/categories,404,Not Found,Mixed – 100 Threads 2-86,text,false,,535,184,2,2,http://localhost/api/categories,3,0,0
+1762965830843,2,PUT /api/categories/{id},405,Method Not Allowed,Mixed – 100 Threads 2-86,text,false,,604,187,2,2,http://localhost/api/categories/129,2,0,0
+1762965831014,9,POST /api/items,404,Not Found,Mixed – 100 Threads 2-88,text,false,,536,179,2,2,http://localhost/api/items,9,0,7
+1762965831323,4,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-89,text,false,,536,136,1,1,http://localhost/api/items?page=52&size=50,4,0,2
+1762965832617,3,PUT /api/items/{id},405,Method Not Allowed,Mixed – 50 Threads 1-46,text,false,,605,182,1,1,http://localhost/api/items/136,3,0,2
+1762965832955,4,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-92,text,false,,536,136,1,2,http://localhost/api/items?page=54&size=50,4,0,2
+1762965832982,3,DELETE /api/items/{id},405,Method Not Allowed,Mixed – 50 Threads 1-46,text,false,,607,210,1,1,http://localhost/api/items/136,3,0,0
+1762965833368,4,GET /api/items?page,404,Not Found,Mixed – 50 Threads 1-47,text,false,,536,135,2,3,http://localhost/api/items?page=7&size=50,4,0,2
+1762965833477,7,POST /api/categories,404,Not Found,Mixed – 50 Threads 1-46,text,false,,535,184,1,2,http://localhost/api/categories,7,0,0
+1762965833926,5,PUT /api/categories/{id},405,Method Not Allowed,Mixed – 50 Threads 1-46,text,false,,604,187,1,3,http://localhost/api/categories/136,5,0,0
+1762965833982,3,POST /api/items,404,Not Found,Mixed – 100 Threads 2-93,text,false,,536,179,2,2,http://localhost/api/items,3,0,2
+1762965834415,3,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-94,text,false,,536,135,1,2,http://localhost/api/items?page=4&size=50,3,0,1
+1762965834776,8,POST /api/items,404,Not Found,Mixed – 50 Threads 1-48,text,false,,536,179,1,1,http://localhost/api/items,8,0,6
+1762965835504,15,PUT /api/items/{id},405,Method Not Allowed,Mixed – 100 Threads 2-96,text,false,,605,182,1,2,http://localhost/api/items/144,15,0,12
+1762965835936,3,GET /api/items?page,404,Not Found,Mixed – 50 Threads 1-49,text,false,,536,136,1,3,http://localhost/api/items?page=67&size=50,3,0,1
+1762965836184,2,DELETE /api/items/{id},405,Method Not Allowed,Mixed – 100 Threads 2-96,text,false,,607,210,2,2,http://localhost/api/items/144,2,0,0
+1762965836401,3,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-97,text,false,,536,136,3,3,http://localhost/api/items?page=92&size=50,3,0,1
+1762965836529,4,POST /api/categories,404,Not Found,Mixed – 100 Threads 2-96,text,false,,535,184,2,2,http://localhost/api/categories,4,0,0
+1762965836835,2,PUT /api/categories/{id},405,Method Not Allowed,Mixed – 100 Threads 2-96,text,false,,604,187,2,2,http://localhost/api/categories/144,2,0,0
+1762965836982,3,POST /api/items,404,Not Found,Mixed – 100 Threads 2-98,text,false,,536,179,2,2,http://localhost/api/items,3,0,1
+1762965837239,8,GET /api/items?page,404,Not Found,Mixed – 100 Threads 2-99,text,false,,536,136,1,1,http://localhost/api/items?page=10&size=50,8,0,2
